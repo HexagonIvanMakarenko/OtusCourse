@@ -48,6 +48,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ${{github.workspace}}/release
-        asset_name: helloworld.cpp
-        asset_content_type: application/vnd.debian.binary-package
+        asset_path: helloworld.cpp
