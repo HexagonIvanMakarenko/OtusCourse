@@ -51,6 +51,6 @@ jobs:
         # The path to the asset you want to upload
         asset_path: ./release/helloworld.exe
         # The name of the asset you want to upload
-        asset_name: helloworld.exe
+        asset_name: helloworld/helloworld.exe
         # The content-type of the asset you want to upload. See the supported Media Types here: https://www.iana.org/assignments/media-types/media-types.xhtml for more information
         asset_content_type: application/zip
