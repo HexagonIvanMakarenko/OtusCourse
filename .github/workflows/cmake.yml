@@ -52,3 +52,5 @@ jobs:
         asset_path: ./release/
         # The name of the asset you want to upload
         asset_name: helloworld
+        # The content-type of the asset you want to upload. See the supported Media Types here: https://www.iana.org/assignments/media-types/media-types.xhtml for more information
+        asset_content_type: application/zip
